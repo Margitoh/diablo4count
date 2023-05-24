@@ -28,14 +28,39 @@
   text-align: center;
 }
 
-h2 {
+.music-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  bottom: -150px;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.music-section i {
   font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.music-section i:hover {
+  color: #880808;
+}
+
+h2 {
+  font-size: 22px;
   font-weight: bold;
   margin-bottom: 16px;
 }
 
 span {
   display: inline-block;
-  font-size: 16px;
+  font-size: 44px;
   margin: 4px;
+}
+
+.EarlyTimer span {
+  font-size: 66px;
 }
