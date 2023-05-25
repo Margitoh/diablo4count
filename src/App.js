@@ -8,11 +8,11 @@ import "./App.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const targetDateRelease = moment.tz(
-  "2023-06-06 16:00:00",
+  "2023-06-05 16:00:00",
   "America/Los_Angeles"
 );
 const targetDateEarlyAccess = moment.tz(
-  "2023-06-02 16:00:00",
+  "2023-06-01 16:00:00",
   "America/Los_Angeles"
 );
 
